@@ -6,26 +6,24 @@ Game::Game()
     // 初始化遊戲狀態和物件
     score = 0;
     level = 1;
-    isOver = false;
+    gameOver = false;
 }
 
 void Game::startGame()
 {
-    std::cout << "遊戲開始！" << std::endl;
+    cout << "遊戲開始！" << endl;
 
-    while (!isOver) {
+    while (!gameOver) {
         // 更新遊戲狀態和物件
-        snake.move();
+        snake.Logic();
 
         // 檢查碰撞等遊戲邏輯
         if (snake.collidesWith(food)) {
-            snake.grow();
+            snake.Draw();
             food.random();
             updateScore();
         }
 
-        // 繪製遊戲畫面
-        // ...
 
         // 假設在此處檢測是否結束遊戲的條件
         if (score >= 10) {
@@ -43,7 +41,7 @@ void Game::pauseGame()
 void Game::endGame()
 {
     // 結束遊戲邏輯
-    isOver = true;
+    gameOver = true;
     std::cout << "遊戲結束" << std::endl;
 }
 

@@ -9,6 +9,6 @@ Food::Food()
 
 void Food::random()
 {
-    // 隨機生成食物位置邏輯
-    // ...
+    Food food;
+    
 }

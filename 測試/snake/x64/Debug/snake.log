@@ -1,6 +1,71 @@
-﻿  Food.cpp
-  Game.cpp
+﻿  Game.cpp
+C:\Users\user\Desktop\Snake\測試\snake\Snake.h(24,10): error C3646: 'gameOver': 未知的覆寫規範
+C:\Users\user\Desktop\Snake\測試\snake\Snake.h(24,18): error C4430: 遺漏類型規範 - 假設為 int。注意: C++ 不支援 default-int
+C:\Users\user\Desktop\Snake\測試\snake\Snake.h(28,9): error C2371: 'Snake::dir': 重複定義; 基本類型不相同
+C:\Users\user\Desktop\Snake\測試\snake\Snake.h(21,16): message : 請參閱 'Snake::dir' 的宣告
+C:\Users\user\Desktop\Snake\測試\snake\Snake.h(31,10): error C3646: 'x': 未知的覆寫規範
+C:\Users\user\Desktop\Snake\測試\snake\Snake.h(31,11): error C2059: 語法錯誤: ','
+C:\Users\user\Desktop\Snake\測試\snake\Snake.h(31,36): error C2238: 在 ';' 之前有未預期的語彙基元
+C:\Users\user\Desktop\Snake\測試\snake\Game.h(26,9): error C2086: 'int Game::score': 重複定義
   main.cpp
+C:\Users\user\Desktop\Snake\測試\snake\Snake.h(24,10): error C3646: 'gameOver': 未知的覆寫規範
+C:\Users\user\Desktop\Snake\測試\snake\Snake.h(24,18): error C4430: 遺漏類型規範 - 假設為 int。注意: C++ 不支援 default-int
+C:\Users\user\Desktop\Snake\測試\snake\Snake.h(28,9): error C2371: 'Snake::dir': 重複定義; 基本類型不相同
+C:\Users\user\Desktop\Snake\測試\snake\Snake.h(21,16): message : 請參閱 'Snake::dir' 的宣告
+C:\Users\user\Desktop\Snake\測試\snake\Snake.h(31,10): error C3646: 'x': 未知的覆寫規範
+C:\Users\user\Desktop\Snake\測試\snake\Snake.h(31,11): error C2059: 語法錯誤: ','
+C:\Users\user\Desktop\Snake\測試\snake\Snake.h(31,36): error C2238: 在 ';' 之前有未預期的語彙基元
+C:\Users\user\Desktop\Snake\測試\snake\Game.h(26,9): error C2086: 'int Game::score': 重複定義
+C:\Users\user\Desktop\Snake\測試\snake\main.cpp(8,5): error C3861: 'Setup': 找不到識別項
+C:\Users\user\Desktop\Snake\測試\snake\main.cpp(9,13): error C2065: 'gameOver': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\main.cpp(11,9): error C3861: 'Draw': 找不到識別項
+C:\Users\user\Desktop\Snake\測試\snake\main.cpp(12,9): error C3861: 'Input': 找不到識別項
+C:\Users\user\Desktop\Snake\測試\snake\main.cpp(13,9): error C3861: 'Logic': 找不到識別項
   Snake.cpp
+C:\Users\user\Desktop\Snake\測試\snake\Snake.h(24,10): error C3646: 'gameOver': 未知的覆寫規範
+C:\Users\user\Desktop\Snake\測試\snake\Snake.h(24,18): error C4430: 遺漏類型規範 - 假設為 int。注意: C++ 不支援 default-int
+C:\Users\user\Desktop\Snake\測試\snake\Snake.h(28,9): error C2371: 'Snake::dir': 重複定義; 基本類型不相同
+C:\Users\user\Desktop\Snake\測試\snake\Snake.h(21,16): message : 請參閱 'Snake::dir' 的宣告
+C:\Users\user\Desktop\Snake\測試\snake\Snake.h(31,10): error C3646: 'x': 未知的覆寫規範
+C:\Users\user\Desktop\Snake\測試\snake\Snake.h(31,11): error C2059: 語法錯誤: ','
+C:\Users\user\Desktop\Snake\測試\snake\Snake.h(31,36): error C2238: 在 ';' 之前有未預期的語彙基元
+C:\Users\user\Desktop\Snake\測試\snake\Game.h(26,9): error C2086: 'int Game::score': 重複定義
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(20,5): error C2065: 'gameOver': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(22,5): error C2065: 'x': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(23,5): error C2065: 'y': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(24,5): error C2065: 'fruitX': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(25,5): error C2065: 'fruitY': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(26,5): error C2065: 'score': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(43,22): error C2065: 'y': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(43,32): error C2065: 'x': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(45,27): error C2065: 'fruitY': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(45,42): error C2065: 'fruitX': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(72,25): error C2065: 'score': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(95,13): error C2065: 'gameOver': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(106,16): error C2065: 'x': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(107,16): error C2065: 'y': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(119,13): error C2450: 類型為 'unknown' 的 switch 運算式無效
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(119,13): message : 必須是整數運算式
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(122,9): error C2065: 'x': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(125,9): error C2065: 'x': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(128,9): error C2065: 'y': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(131,9): error C2065: 'y': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(137,9): error C2065: 'x': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(137,21): error C2065: 'x': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(137,37): error C2065: 'x': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(137,44): error C2065: 'x': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(138,9): error C2065: 'y': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(138,22): error C2065: 'y': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(138,38): error C2065: 'y': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(138,45): error C2065: 'y': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(142,25): error C2065: 'x': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(142,42): error C2065: 'y': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(143,13): error C2065: 'gameOver': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(146,9): error C2065: 'x': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(146,14): error C2065: 'fruitX': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(146,24): error C2065: 'y': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(146,29): error C2065: 'fruitY': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(148,9): error C2065: 'score': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(149,9): error C2065: 'fruitX': 未宣告的識別項
+C:\Users\user\Desktop\Snake\測試\snake\Snake.cpp(150,9): error C2065: 'fruitY': 未宣告的識別項
   正在產生程式碼...
-  snake.vcxproj -> C:\Users\user\Desktop\snake\x64\Debug\snake.exe

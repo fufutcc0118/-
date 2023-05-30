@@ -5,6 +5,7 @@
 #include <windows.h>                
 #include <conio.h>                  
 #include <ctime>
+#include "Map.h"
 #define N 30
 #define Up 1                       
 #define Down 2                      
@@ -15,13 +16,13 @@ using namespace std;
 class Food
 {
 public:
-	int x;
-	int y;
-	void Rand_Food();
+	static int x;
+	static int y;
+	static void Rand_Food();
 
 private:
 	int food;
-	char snake_map[N][N];
+	static char map[N][N];
 };
 
 #endif // !FOOD_H

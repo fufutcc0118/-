@@ -1,4 +1,73 @@
-﻿  Snake.cpp
-  Snake.h
+﻿  Food.cpp
+  main.cpp
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.h(16,11): error C2011: 'Map': 'class' 類型重複定義
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.h(16,7): message : 請參閱 'Map' 的宣告
+C:\Users\user\Desktop\Snake\food,s\Snake\main.cpp(23,9): error C2079: 'map' 使用未定義的 class 'Map'
+  Map.cpp
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.h(16,11): error C2011: 'Map': 'class' 類型重複定義
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.h(16,7): message : 請參閱 'Map' 的宣告
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(9,21): error C2871: 'Food': 此名稱的命名空間不存在
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(18,11): error C2027: 使用未定義類型 'Map'
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.h(16,7): message : 請參閱 'Map' 的宣告
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(22,21): error C2065: 'mod': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(22,9): error C3861: 'Print_Hello': 找不到識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(26,22): error C2065: 'mod': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(27,22): error C2065: 'mod': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(32,13): error C2065: 'mod': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(36,24): error C2065: 'grade': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(37,22): error C2065: 'grade': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(37,35): error C2065: 'grade': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(38,13): error C2065: 'autoSpeed': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(38,25): error C2065: 'speed': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(38,31): error C2065: 'grade': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(44,5): error C3861: 'Start_Game': 找不到識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(47,11): error C2027: 使用未定義類型 'Map'
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.h(16,7): message : 請參閱 'Map' 的宣告
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(53,9): error C2065: 'mod': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(55,9): error C2065: 'mod': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(58,11): error C2027: 使用未定義類型 'Map'
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.h(16,7): message : 請參閱 'Map' 的宣告
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(61,5): error C3861: 'Initialize_Map': 找不到識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(64,9): error C3861: 'Show_Map': 找不到識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(65,14): error C3861: 'Update_Map': 找不到識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(76,11): error C2027: 使用未定義類型 'Map'
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.h(16,7): message : 請參閱 'Map' 的宣告
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(79,9): error C2065: 'map': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(79,21): error C2065: 'map': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(81,9): error C2065: 'map': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(81,21): error C2065: 'map': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(84,13): error C2065: 'map': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(92,10): error C2027: 使用未定義類型 'Map'
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.h(16,7): message : 請參閱 'Map' 的宣告
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(108,21): error C2065: 'opposite_direction': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(108,40): error C2065: 'direction': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(112,26): error C2065: 'direction': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(113,26): error C2065: 'direction': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(114,26): error C2065: 'direction': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(115,26): error C2065: 'direction': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(121,61): error C2065: 'autoSpeed': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(122,13): error C2065: 'direction': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(122,34): error C2065: 'direction': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(127,5): error C2065: 'map': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(128,13): error C2065: 'direction': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(136,9): error C2065: 'map': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(137,9): error C2065: 'score': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(138,13): error C2065: 'mod': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(139,17): error C2065: 'score': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(139,31): error C2065: 'grade': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(140,21): error C2065: 'grade': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(141,21): error C2065: 'grade': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(142,17): error C2065: 'autoSpeed': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(142,29): error C2065: 'speed': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(142,35): error C2065: 'grade': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(147,14): error C2065: 'map': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(151,9): error C2065: 'map': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(152,9): error C2065: 'map': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(153,17): error C2065: 'direction': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(159,9): error C2065: 'direction': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(164,11): error C2027: 使用未定義類型 'Map'
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.h(16,7): message : 請參閱 'Map' 的宣告
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(170,21): error C2065: 'map': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(172,37): error C2065: 'score': 未宣告的識別項
+C:\Users\user\Desktop\Snake\food,s\Snake\Map.cpp(174,37): error C2065: 'grade': 未宣告的識別項
   正在產生程式碼...
-  Snake.vcxproj -> C:\Users\user\Desktop\Snake\x64\Debug\Snake.exe

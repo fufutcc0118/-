@@ -27,15 +27,11 @@ private:
     int grade;
     int autoSpeed;
     char snake_map[N][N]; 
-    int opposite_direction[5] = { 0, 80, 72, 77, 75 };
-    int speed[9] = { 0, 800, 600, 500, 420, 250, 100, 40, 5 };//保存自動前進速度,單位ms
 public:
-    Snake() : head({ N / 2, N / 2 }), tail({ N / 2, N / 2 - 2 }), autoSpeed(speed[grade]) 
-        , mod(0), score(0), grade(1) { }
-    void Start_Game();
+    int x;
+    int y;
+    Snake() : head({ N / 2, N / 2 }), tail({ N / 2, N / 2 - 2 }) { }
     void Initialize_Map();
-    int Update_Map();
-    void Show_Map();
     void Reset();                   //復位
 };
 #endif // !SNAKE_H

@@ -15,10 +15,10 @@ using namespace std;
 
 void Food::Rand_Food()
 {
-    Food food;
+    Food food{};
     do {
         food.x = rand() % (N - 2) + 1;
         food.y = rand() % (N - 2) + 1;
-    } while (snake_map[food.x][food.y] != ' ');
-    snake_map[food.x][food.y] = '%';
+    } while (map[food.x][food.y] != ' ');
+    map[food.x][food.y] = '%';
 }
