@@ -1,7 +1,10 @@
-#include <iostream>
+Ôªø#include <iostream>
 #include <conio.h>
 #include <windows.h>
+#include <ctime>
+#include <deque>
 #include"Snake.h"
+#include"Map.h"
 using namespace std;
 
 Snake::Snake(int w, int h)
@@ -21,7 +24,7 @@ void Snake::setWidth(int w)
 
 int Snake::getWidth() const
 {
-	return 20;
+	return 60;
 }
 
 void Snake::setHeight(int h)
@@ -31,17 +34,22 @@ void Snake::setHeight(int h)
 
 int Snake::getHeight() const
 {
-	return 20;
+	return 30;
+}
+
+void Snake::setGameOver(bool g)
+{
+    gameOver = g;
 }
 
 bool Snake::getGameOver()
 {
-	return false;
+	return gameOver;
 }
 
-void Snake::Setup()
+void Snake::Setall()
 {
-	getGameOver();
+    gameOver = false;
 	dir = STOP;
 	x = getWidth() / 2;
 	y = getHeight() / 2;
@@ -50,9 +58,9 @@ void Snake::Setup()
 	score = 0;
 }
 
-void Snake::Draw()
+void  Snake::Draw()
 {
-    system("cls"); // ≤M∞£µe≠±
+    system("cls"); // Ê∏ÖÈô§Áï´Èù¢
 
     for (int i = 0; i < getWidth() + 2; i++) {
         cout << "=";
@@ -66,9 +74,9 @@ void Snake::Draw()
             if (j == 0)
                 cout << "]";
             if (i == y && j == x)
-                cout << "@"; // ≥D¿Y
+                cout << "@"; // ËõáÈ†≠
             else if (i == foodY && j == foodX)
-                cout << "O"; // ≠π™´
+                cout << "%"; // È£üÁâ©
             else
             {
                 bool printTail = false;
@@ -76,7 +84,7 @@ void Snake::Draw()
                 {
                     if (s_tailX[k] == j && s_tailY[k] == i)
                     {
-                        cout << "o"; // ≥D®≠
+                        cout << "o"; // ËõáË∫´
                         printTail = true;
                     }
                 }
@@ -96,9 +104,10 @@ void Snake::Draw()
     cout << endl;
 
     cout << "Score:" << score << endl;
+
 }
 
-void Snake::Input()
+void Snake::key_Down()
 {
     if (_kbhit())
     {
@@ -123,7 +132,7 @@ void Snake::Input()
     }
 }
 
-void Snake::Logic()
+bool Snake::UpDate()
 {
     int prevX = s_tailX[0];
     int prevY = s_tailY[0];
@@ -160,15 +169,15 @@ void Snake::Logic()
         break;
     }
 
-    if (x >= getWidth()) x = 0; else if (x < 0) x = getWidth() - 1;
-    if (y >= getHeight()) y = 0; else if (y < 0) y = getHeight() - 1;
+  
+    if (x >= getWidth() || x < 0 || y >= getHeight() || y < 0) // ÊíûÂà∞ÁâÜÂ£Å
+        gameOver = true;
 
-    for (int i = 0; i < sTail; i++)
+    for (int i = 0; i < sTail; i++) // ÊíûÂà∞Ëá™Â∑±
     {
         if (s_tailX[i] == x && s_tailY[i] == y)
             gameOver = true;
     }
-
     if (x == foodX && y == foodY)
     {
         score += 10;
@@ -176,4 +185,6 @@ void Snake::Logic()
         foodY = rand() % getHeight();
         sTail++;
     }
+
+    return 1;
 }

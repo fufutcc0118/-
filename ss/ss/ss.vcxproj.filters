@@ -21,9 +21,21 @@
     <ClCompile Include="main.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Food.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Snake.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Food.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>
