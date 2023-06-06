@@ -8,28 +8,17 @@
 
 using namespace std;
 
-Map::Map(int l, int m, int g)
+Map::Map(int m, int g)
 {
-	level = l;
 	mod = m;
 	grade = g;
 }
 
 Map::Map()
 {
-	level = 1;
 	grade = 1;
 	int speed[9] = { 0, 800, 600, 500, 420, 250, 100, 40, 5 };
 	int autoSpeed(speed[grade]);
-}
-void Map::setLevel(int l)
-{
-	level = l;
-}
-
-int Map::getLevel()
-{
-	return level;
 }
 
 void Map::setMod(int m)
@@ -70,7 +59,7 @@ void Map::Hello()
 			do {
 				
 				system("cls");
-				cout << "\n\n\n\n\t\t\t 請輸入你需要的遊戲級別: (1~8)   ";
+				cout << "\n\n\n\n\t   請輸入你需要的遊戲級別: (1~8)   ";
 				cin >> grade;
 			} while (grade > 8 || grade < 1);   //判斷等級輸入是否正確
 			autoSpeed = speed[grade];           //更新自動快進速度
@@ -84,9 +73,9 @@ void Map::Hello()
 void Map::Print_Hello(int mod)
 {
 	srand((unsigned)time(nullptr));     //用時間產生隨機種子
-	cout << "\n\n\n\t\t\t\t    歡迎來到貪吃蛇遊戲 \n\n\n\n";
-	cout << "\t\t\t           請選擇你的模式:";
-	cout << "\n\n\t\t\t           普通模式:";
+	cout << "\n\n\n\t\t\t     歡迎來到貪吃蛇遊戲 \n\n\n\n";
+	cout << "\t\t\t      請選擇你的模式:";
+	cout << "\n\n\t\t\t      普通模式:";
 	if (mod == 0) cout << "   *";       
 }
 

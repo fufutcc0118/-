@@ -2,7 +2,6 @@
 #include <conio.h>
 #include <windows.h>
 #include <ctime>
-#include <deque>
 #include"Snake.h"
 #include"Map.h"
 using namespace std;

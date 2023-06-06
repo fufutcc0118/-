@@ -1,7 +1,5 @@
 ﻿#ifndef SNAKE_H
 #define SNAKE_H
-#include <deque>
-#define N 30
 
 using namespace std;
 
